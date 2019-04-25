@@ -1,0 +1,25 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+text {
+    font-family: arial;
+    font-size: 12px;
+}
+
+
+path.line {
+    fill: #4e79a6;
+    stroke: red;
+    stroke-width: 0px;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: slategray;
+    shape-rendering: crispEdges;
+}
