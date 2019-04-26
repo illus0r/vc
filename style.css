@@ -23,3 +23,20 @@ path.line {
     stroke: slategray;
     shape-rendering: crispEdges;
 }
+
+.overlay {
+    fill: none;
+    pointer-events: all;
+}
+
+.focus circle {
+    fill: #F1F3F3;
+    stroke: #f68c00;
+    stroke-width: 1px;
+}
+
+.hover-line {
+    stroke: #f3f3f3;
+    stroke-width: 2px;
+    stroke-dasharray: 3,3;
+}
